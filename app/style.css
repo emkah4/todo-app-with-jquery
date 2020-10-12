@@ -1,0 +1,9 @@
+.main-block {
+    background-color: bisque;
+    margin: auto;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
