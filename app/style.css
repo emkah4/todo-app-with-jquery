@@ -1,9 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper {
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    height: 35px;
+    font-size: 24px;
+}
+
 .main-block {
-    background-color: bisque;
+    background-color: #b9f3ff;
     margin: auto;
+    margin-top: 200px;
+    border: 2px solid #5dc4fc;
+}
+
+input {
+    height: 35px;
+    width: 300px;
 }
 
 .completed {
     color: gray;
     text-decoration: line-through;
+}
+
+.svg-wrapper {
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+}
+
+svg:hover {
+    cursor: pointer;
 }
