@@ -1,3 +1,15 @@
+body {
+    font-family: montserrat;
+    background: rgb(255,163,247);
+    background: linear-gradient(90deg, rgba(255,163,247,1) 0%, rgba(255,201,250,1) 82%);   
+}
+
+h1 {
+    font-family: chilanka;
+    font-size: 40px;
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -8,6 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .content-wrapper {
@@ -21,15 +34,23 @@ ul {
 }
 
 li {
+    display: flex;
+    align-items: center;
     height: 35px;
     font-size: 24px;
+    padding: 5px;
+}
+
+li img {
+    height: 20px;
+    margin-right: 10px;
 }
 
 .main-block {
-    background-color: #b9f3ff;
+    background: rgb(133,145,255);
+    background: linear-gradient(90deg, rgba(133,145,255,1) 0%, rgba(109,211,252,1) 82%);
     margin: auto;
     margin-top: 200px;
-    border: 2px solid #5dc4fc;
 }
 
 input {
@@ -51,3 +72,4 @@ input {
 svg:hover {
     cursor: pointer;
 }
+

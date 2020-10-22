@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>What are your plans?</title>
 </head>
@@ -11,21 +13,24 @@
     <div class="container">
         <div class="main-block">
             <div class="content-wrapper">
-            <h1>Things to do</h1>
-            <div class="input-container">
+            <div class="top-box">
+            <h1>My plans for TODAY</h1>
+            <div class="input-container">    
                 <input type="text">
                 <div class="svg-wrapper">
                     <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><circle cx="256" cy="246.15" r="246.15" fill="#A4C2F7"/><ellipse cx="256" cy="246.15" rx="216.62" ry="246.15" fill="#E3E7F2"/><path d="m39.385 246.15c0-135.95 96.982-246.15 216.62-246.15-135.95 0-246.15 110.21-246.15 246.15s110.21 246.15 246.15 246.15c-119.63 0-216.62-110.21-216.62-246.15z" fill="#fff"/><g fill="#428DFF"><path d="m256 512c-141.38 0-256-114.62-256-256s114.62-256 256-256 256 114.62 256 256c-0.158 141.32-114.68 255.84-256 256zm0-492.31c-130.51 0-236.31 105.8-236.31 236.31s105.8 236.31 236.31 236.31 236.31-105.8 236.31-236.31c-0.15-130.45-105.86-236.16-236.31-236.31z"/><path d="m256 393.85c-2.612 1e-3 -5.116-1.036-6.963-2.883s-2.884-4.351-2.883-6.963v-246.15c0-5.438 4.408-9.846 9.846-9.846s9.846 4.408 9.846 9.846v246.15c1e-3 2.612-1.036 5.116-2.883 6.963s-4.351 2.884-6.963 2.883z"/><path d="m379.08 265.85h-246.15c-5.438 0-9.846-4.408-9.846-9.846s4.408-9.846 9.846-9.846h246.15c5.438 0 9.846 4.408 9.846 9.846s-4.408 9.846-9.846 9.846z"/></g></svg>
                 </div>
             </div>
+            </div>
                 <ul>
-                    <li><span>x</span>yup</li>
-                    <li><span>x</span>nop</li>
-                    <li><span>x</span>ok</li>
+                    <li><img src="cancel.png"></img>yup</li>
+                    <li><img src="cancel.png"></img>nop</li>
+                    <li><img src="cancel.png"></img>ok</li>
                 </ul>
         </div>
         </div>
         </div>
 </body>
 <script src="jquery/script.js"></script>
+<script src="jquery/localStorage.js"></script>
 </html>
